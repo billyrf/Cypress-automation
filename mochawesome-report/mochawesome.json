@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-08-14T11:43:00.067Z",
+    "end": "2023-08-14T11:43:02.930Z",
+    "duration": 2863,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d002ed40-0a96-4fa5-b895-79bc361d3bac",
+      "title": "",
+      "fullFile": "cypress\\e2e\\LoginIncorrect.cy.js",
+      "file": "cypress\\e2e\\LoginIncorrect.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5961b5b5-a57b-482f-a5c0-153cea02e095",
+          "title": "Testing login  on cypress alurapic page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visit alura pic page and try the login without fields",
+              "fullTitle": "Testing login  on cypress alurapic page Visit alura pic page and try the login without fields",
+              "timedOut": null,
+              "duration": 1170,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('User name is required!').should('be.visible');\ncy.contains('Password is required!').should('be.visible');",
+              "err": {},
+              "uuid": "07229c00-4291-40f0-8014-631e09876222",
+              "parentUUID": "5961b5b5-a57b-482f-a5c0-153cea02e095",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "07229c00-4291-40f0-8014-631e09876222"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1170,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
